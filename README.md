@@ -1,10 +1,10 @@
 # Access control using AWS Rekognition, IOT and Raspberry
 Access Control use 2step verification system, which after successful authentication with RFID card/key, compare if the owner of the card is the same person as the one using that card at the moment of authentication. 
-##The following equipment was used.
+## The following equipment was used.
 1.Raspberry 3B+
 2.RFID-RC522
 3.Raspberry Camera Rev1.3
-##The following is the processing flow:
+## The following is the processing flow:
 ![](https://github.com/brilliantwf/Raspberry_compare_face/blob/master/rfid.jpg)
 1.User touches the RFID reader with the RFID card
 2.When the RFID event is detected and the number read is valid, the RPi Camera takes the photo of the person staying close to the RFID reader.
